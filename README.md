@@ -1,10 +1,4 @@
 <div align="center">
-  <img width="100%" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif"  />
-</div>
-
-###
-
-<div align="center">
   <a href="https://t.me/chswell"><img src="https://img.shields.io/badge/telegram-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white"/></a>
   <img height="28" src="https://visitor-badge.laobi.icu/badge?page_id=Chswell.Chswell&left_color=000"  />
   <img src="https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white"  />
@@ -17,7 +11,7 @@
 
 <h2 style="font-family: Calibri;"><img src="assets/about.jpeg" width="50" style="margin-bottom: -15px; margin-right: 5px" /> Обо мне</h2>
 
-<p style="font-family: Calibri; font-size: 20px" >Я Frontend разработчик. </p>
+<p style="font-family: Calibri; font-size: 20px" >Я Frontend-разработчик. </p>
 
 <h3 align="left"></h3>
 
@@ -25,11 +19,13 @@
 
 <div align="center">
     <a href="https://github.com/Chswell/gearit-web"><img src="assets/gearit.svg" width="150" style="margin-bottom: -15px; margin-right: 5px" /></a>
+    <img width="24" />
     <a href="https://github.com/Chswell/listva-frontend"><img src="assets/listva.svg" width="150" style="margin-right: 5px" /></a>
 </div>
 
 
 ###
+
 <div style="margin-bottom: 50px">
     <h2 style="font-family: Calibri;"><img src="assets/stack.jpg" width="70" style="margin-bottom: -15px; margin-right: 5px" /> Стек</h2>
 </div>
@@ -67,11 +63,13 @@
 
 ###
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=chswell&theme=dark&hide_border=true&locale=ru" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats-2vbz8q9b0-chswells-projects.vercel.app?user=chswell&theme=dark&hide_border=true&locale=ru" alt="GitHub Streak" />
 </div>
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/Chswell?theme=dark&font=Roboto" alt="Leetcode" />
 </div>
+
+<img src="https://d3frb2mbny706b.cloudfront.net/chswell" width="600" alt="streak">
 
 ###
 
