@@ -1,9 +1,3 @@
-<div align="center">
-  <a href="https://t.me/chswell"><img src="https://img.shields.io/badge/telegram-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <img height="28" src="https://visitor-badge.laobi.icu/badge?page_id=Chswell.Chswell&left_color=000"  />
-  <img src="https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white"  />
-</div>
-
 <h1 align="center">Привет <img width="80" style="margin-bottom: -30px; margin-left: -10px; margin-right: -15px; " src="assets/oiia.png"/> меня зовут Никита!</h1>
 
 ###
@@ -12,6 +6,11 @@
 <h2 style="font-family: Calibri;"><img src="assets/about.jpeg" width="50" style="margin-bottom: -15px; margin-right: 5px" /> Обо мне</h2>
 
 <p style="font-family: Calibri; font-size: 20px" >Я Frontend-разработчик. </p>
+
+<div>
+  <a href="https://t.me/chswell"><img src="https://img.shields.io/badge/telegram-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white"  />
+</div>
 
 <h3 align="left"></h3>
 
@@ -68,8 +67,6 @@
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/Chswell?theme=dark&font=Roboto" alt="Leetcode" />
 </div>
-
-<img src="https://d3frb2mbny706b.cloudfront.net/chswell" width="600" alt="streak">
 
 ###
 
