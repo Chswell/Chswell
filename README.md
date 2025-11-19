@@ -67,7 +67,7 @@
 
 ###
 <div align="center">
-  <img src="https://github-readme-streak-stats-fvly.vercel.app?user=chswell&theme=dark&hide_border=true&locale=ru" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=chswell&theme=dark" alt="GitHub Streak" />
 </div>
 <div align="center">
   <img src="https://leetcard.jacoblin.cool/Chswell?theme=dark&font=Roboto" alt="Leetcode" />
