@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    image: chswell/chswell:latest
+    container_name: chswell_frontend
+    restart: always
+    ports:
+      - "3000:80"
+
