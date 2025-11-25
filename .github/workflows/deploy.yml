@@ -43,8 +43,8 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
+            cd /var/www/Chswell
             docker pull chswell/chswell:latest
-            docker container stop frontend || true
-            docker container rm frontend || true
+            docker-compose down || true
             docker image prune -af
-            docker run -d --name frontend -p 80:80 -p 443:443 chswell/chswell:latest
+            docker-compose up -d

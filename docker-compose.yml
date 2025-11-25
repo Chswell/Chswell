@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   frontend:
-    build: .
+    image: chswell/chswell:latest
     container_name: frontend
     labels:
       - "traefik.enable=true"
