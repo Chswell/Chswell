@@ -10,6 +10,7 @@ services:
       - "traefik.http.routers.frontend.entrypoints=websecure"
       - "traefik.http.routers.frontend.tls.certresolver=lets"
       - "traefik.http.routers.frontend.middlewares=https-redirect@docker"
+      - "traefik.http.services.frontend.loadbalancer.server.port=80"
     networks:
       - web
     restart: unless-stopped
@@ -19,6 +20,8 @@ services:
     container_name: traefik
     command:
       - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.docker.network=web"
       - "--entrypoints.web.address=:80"
       - "--entrypoints.websecure.address=:443"
       - "--certificatesresolvers.lets.acme.tlschallenge=true"
@@ -28,7 +31,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
       - "./letsencrypt:/letsencrypt"
     networks:
       - web
