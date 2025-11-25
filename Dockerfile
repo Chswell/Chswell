@@ -4,7 +4,7 @@ FROM oven/bun:latest AS builder
 WORKDIR /app
 
 COPY package.json bun.lock ./
-RUN bun install --log-level=debug
+RUN bun install --log-level=debug --no-cache
 
 COPY . .
 RUN bun run build
