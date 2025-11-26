@@ -10,7 +10,7 @@ COPY . .
 RUN bun run build
 
 # ====== NGINX STAGE ======
-FROM nginx:alpine
+FROM nginx:stable
 
 # Удаляем дефолтный конфиг
 RUN rm -f /etc/nginx/sites-enabled/default || true
