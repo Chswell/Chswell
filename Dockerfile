@@ -13,7 +13,7 @@ RUN bun run build
 FROM nginx:alpine
 
 # Удаляем дефолтный конфиг
-RUN rm /etc/nginx/sites-enabled/default
+RUN rm -f /etc/nginx/sites-enabled/default || true
 
 # Копируем наш конфиг
 COPY nginx.conf /etc/nginx/sites-enabled/default
