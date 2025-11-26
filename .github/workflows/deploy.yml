@@ -49,9 +49,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             cd /var/www/Chswell
-
-           
             docker compose down
-            docker pull ${{ env.IMAGE_NAME }}:${{ github.sha }}
-            docker compose up -d
+            docker pull ${{ env.IMAGE_NAME }}:latest
+            docker compose up -d --force-recreate
             docker image prune -f
