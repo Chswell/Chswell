@@ -13,10 +13,10 @@ RUN bun run build
 FROM nginx:alpine
 
 # Удаляем дефолтный конфиг
-RUN rm /etc/nginx/conf.d/default.conf
+RUN rm /etc/nginx/sites-enabled/default
 
 # Копируем наш конфиг
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/sites-enabled/default
 
 # Копируем сборку React
 COPY --from=builder /app/dist /usr/share/nginx/html
