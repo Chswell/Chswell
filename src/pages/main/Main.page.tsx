@@ -10,7 +10,7 @@ export function MainPage() {
 				{/* links */}
 				<div>
 					<h2 className='scroll-m-20 border-b pb-2 text-right text-5xl font-semibold tracking-tight first:mt-0'>
-						<a href={'https://github.com/Chswell'}>GitHub</a>
+						<a href={'https://github.com/Chswell'}>GitHub -></a>
 					</h2>
 					<h2 className='scroll-m-20 border-b pb-2 text-right text-5xl font-semibold tracking-tight first:mt-0'>
 						<a href={'https://www.linkedin.com/in/nikita-streltsov/'}>
