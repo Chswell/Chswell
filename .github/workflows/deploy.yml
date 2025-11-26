@@ -4,6 +4,9 @@ on:
   push:
     branches: [ "main" ]
 
+env:
+  IMAGE_NAME: chswell/chswell
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
@@ -29,7 +32,9 @@ jobs:
         with:
           context: .
           push: true
-          tags: chswell/chswell:latest
+          tags: |
+            ${{ env.IMAGE_NAME }}:latest
+            ${{ env.IMAGE_NAME }}:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
@@ -44,7 +49,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             cd /var/www/Chswell
-            docker pull chswell/chswell:latest
+            docker pull ${{ env.IMAGE_NAME }}:latest
             docker compose down || true
             docker image prune -af
             docker compose build --no-cache
