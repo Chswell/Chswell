@@ -7,4 +7,7 @@ services:
       - "443:443"
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt:ro
+    security_opt:
+      - apparmor:unconfined
+
     restart: unless-stopped
