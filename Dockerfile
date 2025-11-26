@@ -13,10 +13,10 @@ RUN bun run build
 FROM nginx:stable
 
 # Удаляем дефолтный конфиг
-RUN rm -f /etc/nginx/sites-enabled/default || true
+RUN rm -f /etc/nginx/conf.d/default.conf || true
 
-# Копируем наш конфиг
-COPY nginx.conf /etc/nginx/sites-enabled/default
+# Копируем наш конфиг как основной vhost
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Копируем сборку React
 COPY --from=builder /app/dist /usr/share/nginx/html
