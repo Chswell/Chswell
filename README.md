@@ -21,7 +21,9 @@
 <h2 align="center">Текущие проекты в разработке</h2>
 <h4 align="center">(смотреть нельзя, они приватные, просто поверьте)</h4>
 
-<div align="center">
+<div align="center" style="display: flex; align-items: center; justify-content: center;">
+    <a href="https://github.com/Chswell/WorkoutTracker"><img src="assets/tt.svg" width="190" style="margin-bottom: -15px; margin-right: 5px;" /></a>
+    <img width="24" />
     <a href="https://github.com/Chswell/gearit-web"><img src="assets/gearit.svg" width="150" style="margin-bottom: -15px; margin-right: 5px" /></a>
     <img width="24" />
     <a href="https://github.com/Chswell/listva-frontend"><img src="assets/listva.svg" width="150" style="margin-right: 5px" /></a>
