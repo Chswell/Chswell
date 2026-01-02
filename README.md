@@ -22,7 +22,7 @@
 <h4 align="center">(смотреть нельзя, они приватные, просто поверьте)</h4>
 
 <div align="center" style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://workouttracker.ru"><img src="assets/tt.svg" width="190" style="margin-bottom: -15px; margin-right: 5px;" /></a>
+    <a href="https://workouttracker.ru" target="_blank"><img src="assets/tt.svg" width="190" style="margin-bottom: -15px; margin-right: 5px;" /></a>
     <img width="24" />
     <a href="https://github.com/Chswell/gearit-web"><img src="assets/gearit.svg" width="150" style="margin-bottom: -15px; margin-right: 5px" /></a>
     <img width="24" />
