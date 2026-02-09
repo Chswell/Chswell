@@ -1,5 +1,3 @@
-import LightRays from '@/components/LightRays.tsx'
-
 import { RootProvider } from '@/providers/RootProvider.tsx'
 
 import { MainPage } from '@/pages/main/Main.page.tsx'
