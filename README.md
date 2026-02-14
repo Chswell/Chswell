@@ -21,7 +21,7 @@
 <h2 align="center">Текущие проекты в разработке</h2>
 
 <div align="center" style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://algo-study.vercel.app" target="_blank"><img src="assets/algostudy.svg" width="120" style="margin-bottom: -15px; margin-right: 5px;" /></a>
+    <a href="https://algostudy.ru" target="_blank"><img src="assets/algostudy.svg" width="120" style="margin-bottom: -15px; margin-right: 5px;" /></a>
     <a href="https://workouttracker.ru" target="_blank"><img src="assets/tt.svg" width="190" style="margin-bottom: -15px; margin-right: 5px;" /></a>
 
 [//]: # (    <img width="24" />)
