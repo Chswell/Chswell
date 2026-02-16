@@ -5,7 +5,7 @@ const projects = [
 		title: 'AlgoStudy.ru',
 		description:
 			'Интерактивная веб-платформа для изучения алгоритмов и структур данных.',
-		imageSrc: 'public/projects/algostudy.png',
+		imageSrc: '/projects/algostudy.png',
 		imageAlt: 'algostudy.ru',
 		href: 'https://algostudy.ru/',
 		tools: ['Next.js', 'TypeScript', 'Tailwind', 'Shadcn', 'Zustand', 'Vercel']
@@ -13,7 +13,7 @@ const projects = [
 	{
 		title: 'PPFound.ru',
 		description: 'Сервис поиска команды для pet-проектов',
-		imageSrc: 'public/projects/ppfound.png',
+		imageSrc: '/projects/ppfound.png',
 		imageAlt: 'ppfound.ru',
 		href: 'https://ppfound.ru/',
 		tools: [
@@ -28,7 +28,7 @@ const projects = [
 	{
 		title: 'WorkoutTracker.ru',
 		description: 'Приложение для отслеживания тренировок',
-		imageSrc: 'public/projects/workouttracker.png',
+		imageSrc: '/projects/workouttracker.png',
 		imageAlt: 'workouttracker.ru',
 		href: 'https://workouttracker.ru/',
 		tools: [
