@@ -1,10 +1,16 @@
 import LightRays from '@/components/LightRays.tsx'
 import ShinyText from '@/components/ShinyText.tsx'
-import TextPressure from '@/components/TextPressure.tsx'
+import { TextPressureItem } from '@/components/TextPressureItem.tsx'
+import { IconsLine } from '@/components/sections/IconsLine.tsx'
+import { Projects } from '@/components/sections/Projects/Projects.tsx'
+import { Card, CardContent } from '@/components/ui/card.tsx'
+import { Footer } from '@/components/widgets/Footer.tsx'
+
+import { siteConfig } from '@/config/site.ts'
 
 export function MainPage() {
 	return (
-		<div className={'relative h-[100svh] w-[100svw]'}>
+		<div className={'relative h-[100dvh] w-[100dvw] overflow-x-hidden'}>
 			<LightRays
 				raysOrigin='top-center'
 				raysColor='#ffffff'
@@ -22,83 +28,48 @@ export function MainPage() {
 			/>
 			<div
 				className={
-					'absolute top-0 right-0 bottom-0 left-0 z-10 flex items-center'
+					'absolute top-0 right-0 bottom-0 left-0 z-10 flex flex-col items-center justify-center'
 				}
 			>
-				<div
-					className={
-						'flex flex-1 flex-col items-center justify-center gap-10 sm:flex-row sm:gap-20'
-					}
-				>
-					{/* links */}
-					<div>
-						<h2 className='scroll-m-20 border-b pb-2 text-center text-2xl font-semibold tracking-tight first:mt-0 sm:text-right sm:text-5xl'>
-							<a href={'https://github.com/Chswell'}>
-								<TextPressure
-									text='GitHub'
-									flex
-									alpha={false}
-									stroke={false}
-									width={false}
-									weight
-									italic
-									textColor='#ffffff'
-									strokeColor='#3300ff'
-									minFontSize={36}
-								/>
-							</a>
-						</h2>
-						<h2 className='scroll-m-20 border-b pb-2 text-center text-2xl font-semibold tracking-tight first:mt-0 sm:text-right sm:text-5xl'>
-							<a href={'https://www.linkedin.com/in/nikita-streltsov/'}>
-								<TextPressure
-									text='LinkedIn'
-									flex
-									alpha={false}
-									stroke={false}
-									width={false}
-									weight
-									italic
-									textColor='#ffffff'
-									strokeColor='#3300ff'
-									minFontSize={36}
-								/>
-							</a>
-						</h2>
-						<h2 className='scroll-m-20 border-b pb-2 text-center text-2xl font-semibold tracking-tight first:mt-0 sm:text-right sm:text-5xl'>
-							<a href={'https://t.me/chswell'}>
-								<TextPressure
-									text='Telegram'
-									flex
-									alpha={false}
-									stroke={false}
-									width={false}
-									weight
-									italic
-									textColor='#ffffff'
-									strokeColor='#3300ff'
-									minFontSize={36}
-								/>
-							</a>
-						</h2>
-					</div>
+				<Card className={'h-[95%] w-[90%] bg-black/30'}>
+					<CardContent className={'no-scrollbar flex flex-col overflow-y-auto'}>
+						<div
+							className={
+								'flex min-h-[95dvh] flex-col items-center justify-center gap-10 sm:flex-row sm:gap-20'
+							}
+						>
+							{/* links */}
+							<div>
+								{siteConfig.linkButtons.map(item => (
+									<TextPressureItem text={item.text} link={item.link} />
+								))}
+							</div>
 
-					{/* Title */}
-					<ShinyText
-						text='Streltsov Nikita'
-						speed={2}
-						delay={0}
-						color='#b5b5b5'
-						shineColor='#ffffff'
-						spread={120}
-						direction='left'
-						yoyo={false}
-						pauseOnHover={false}
-						disabled={false}
-						className={
-							'scroll-m-20 text-7xl font-extrabold tracking-tight text-balance max-sm:text-center sm:text-9xl'
-						}
-					/>
-				</div>
+							{/* Title */}
+							<ShinyText
+								text='Streltsov Nikita'
+								speed={2}
+								delay={0}
+								color='#b5b5b5'
+								shineColor='#ffffff'
+								spread={120}
+								direction='left'
+								yoyo={false}
+								pauseOnHover={false}
+								disabled={false}
+								className={
+									'scroll-m-20 text-7xl font-extrabold tracking-tight text-balance max-sm:text-center sm:text-9xl'
+								}
+							/>
+						</div>
+						{/* -------------------------------- 2 section -------------------------------- */}
+						<IconsLine />
+						{/* -------------------------------- 3 section -------------------------------- */}
+						<Projects />
+						{/* -------------------------------- Footer -------------------------------- */}
+						<Footer />
+					</CardContent>
+				</Card>
 			</div>
 		</div>
 	)
