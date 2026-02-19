@@ -1,3 +1,4 @@
+import AnimatedContent from '@/components/AnimatedContent.tsx'
 import LightRays from '@/components/LightRays.tsx'
 import ShinyText from '@/components/ShinyText.tsx'
 import { TextPressureItem } from '@/components/TextPressureItem.tsx'
@@ -39,28 +40,54 @@ export function MainPage() {
 							}
 						>
 							{/* links */}
-							<div>
-								{siteConfig.linkButtons.map(item => (
-									<TextPressureItem text={item.text} link={item.link} />
-								))}
-							</div>
+							<AnimatedContent
+								distance={100}
+								direction='vertical'
+								reverse={false}
+								duration={0.8}
+								ease='power3.out'
+								initialOpacity={0}
+								animateOpacity
+								scale={1}
+								threshold={0.1}
+								delay={0}
+							>
+								<div>
+									{siteConfig.linkButtons.map(item => (
+										<TextPressureItem text={item.text} link={item.link} />
+									))}
+								</div>
+							</AnimatedContent>
 
 							{/* Title */}
-							<ShinyText
-								text='Streltsov Nikita'
-								speed={2}
+							<AnimatedContent
+								distance={100}
+								direction='vertical'
+								reverse={false}
+								duration={0.8}
+								ease='power3.out'
+								initialOpacity={0}
+								animateOpacity
+								scale={1}
+								threshold={0.1}
 								delay={0}
-								color='#b5b5b5'
-								shineColor='#ffffff'
-								spread={120}
-								direction='left'
-								yoyo={false}
-								pauseOnHover={false}
-								disabled={false}
-								className={
-									'scroll-m-20 text-7xl font-extrabold tracking-tight text-balance max-sm:text-center sm:text-9xl'
-								}
-							/>
+							>
+								<ShinyText
+									text='Streltsov Nikita'
+									speed={2}
+									delay={0}
+									color='#b5b5b5'
+									shineColor='#ffffff'
+									spread={120}
+									direction='left'
+									yoyo={false}
+									pauseOnHover={false}
+									disabled={false}
+									className={
+										'scroll-m-20 text-7xl font-extrabold tracking-tight text-balance max-sm:text-center sm:text-9xl'
+									}
+								/>
+							</AnimatedContent>
 						</div>
 						{/* -------------------------------- 2 section -------------------------------- */}
 						<IconsLine />
