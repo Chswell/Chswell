@@ -2,37 +2,14 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=true&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=onedark"  />
 </div>
 
-<h1 align="center">Привет <img width="80" style="margin-bottom: -30px; margin-left: -10px; margin-right: -15px; " src="assets/oiia.png"/> меня зовут Никита!</h1>
+<img width="80" style="margin-bottom: -30px; margin-left: -10px; margin-right: -15px; " src="assets/oiia.png"/>
 
 ###
 
-
-<h2 style="font-family: Calibri;"><img src="assets/about.jpeg" width="50" style="margin-bottom: -15px; margin-right: 5px" /> Обо мне</h2>
-
-<p style="font-family: Calibri; font-size: 20px" >Я Frontend-разработчик. </p>
-
 <div>
   <a href="https://t.me/chswell"><img src="https://img.shields.io/badge/telegram-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white"  />
+  <a href="https://streltsov-developer.ru"><img src="https://img.shields.io/badge/portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white"  /></a>
 </div>
-
-<h3 align="left"></h3>
-
-<h2 align="center">Текущие проекты в разработке</h2>
-
-<div align="center" style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://algostudy.ru" target="_blank"><img src="assets/algostudy.svg" width="120" style="margin-bottom: -15px; margin-right: 5px;" /></a>
-    <a href="https://workouttracker.ru" target="_blank"><img src="assets/tt.svg" width="190" style="margin-bottom: -15px; margin-right: 5px;" /></a>
-
-[//]: # (    <img width="24" />)
-
-[//]: # (    <a href="https://github.com/Chswell/gearit-web"><img src="assets/gearit.svg" width="150" style="margin-bottom: -15px; margin-right: 5px" /></a>)
-
-[//]: # (    <img width="24" />)
-
-[//]: # (    <a href="https://github.com/Chswell/listva-frontend"><img src="assets/listva.svg" width="150" style="margin-right: 5px" /></a>)
-</div>
-
 
 ###
 
