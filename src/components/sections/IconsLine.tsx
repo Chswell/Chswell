@@ -8,10 +8,17 @@ export const IconsLine = () => {
 	return (
 		<div className={'mb-30 hidden bg-black/0 px-10 sm:inline-block'}>
 			<div className={'flex'}>
-				<div className={'flex-col'}>
-					<p className={'text-5xl'}>Software</p>
-					<p className={'text-5xl'}>Developer</p>
-				</div>
+				<Tooltip>
+					<TooltipTrigger asChild>
+						<div className={'flex-col'}>
+							<p className={'text-5xl'}>Творецъ Писаний</p>
+							<p className={'text-5xl'}>Машинныхъ</p>
+						</div>
+					</TooltipTrigger>
+					<TooltipContent>
+						<p>Software developer</p>
+					</TooltipContent>
+				</Tooltip>
 				<div className={'z-10 flex w-full items-center justify-between pl-10'}>
 					<Tooltip>
 						<TooltipTrigger asChild>

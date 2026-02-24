@@ -11,15 +11,18 @@ export const siteConfig = {
 	},
 	linkButtons: [
 		{
-			text: 'GitHub',
+			text: 'Градъ Сокровищъ Кодовъ',
+			engText: 'GitHub',
 			link: 'https://github.com/Chswell'
 		},
 		{
-			text: 'LinkedIn',
+			text: 'Сеть Дѣловыхъ Людей',
+			engText: 'LinkedIn',
 			link: 'https://www.linkedin.com/in/nikita-streltsov/'
 		},
 		{
-			text: 'Telegram',
+			text: 'Вѣстникъ Скорописный',
+			engText: 'Telegramm',
 			link: 'https://t.me/chswell'
 		}
 	],

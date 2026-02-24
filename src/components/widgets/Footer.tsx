@@ -16,7 +16,7 @@ export function Footer() {
 								className='hover:text-foreground text-blue-600 transition-colors dark:text-blue-400'
 								aria-label='Website'
 							>
-								Streltsov Nikita
+								Chswell
 							</a>
 						</p>
 						<p className='text-muted-foreground text-center text-xs sm:text-left'>

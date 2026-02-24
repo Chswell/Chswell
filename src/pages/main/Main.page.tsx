@@ -54,7 +54,11 @@ export function MainPage() {
 							>
 								<div>
 									{siteConfig.linkButtons.map(item => (
-										<TextPressureItem text={item.text} link={item.link} />
+										<TextPressureItem
+											text={item.text}
+											link={item.link}
+											engText={item.engText}
+										/>
 									))}
 								</div>
 							</AnimatedContent>
