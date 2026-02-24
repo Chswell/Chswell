@@ -73,7 +73,7 @@ export function MainPage() {
 								delay={0}
 							>
 								<ShinyText
-									text='Streltsov Nikita'
+									text='Стрельцов Никита'
 									speed={2}
 									delay={0}
 									color='#b5b5b5'
